@@ -135,11 +135,6 @@ body {
     text-align: center;
 }
 /*Dishes*/
-@font-face {
-  font-family: myFont;
-  src: url(/Zomato-Clone-Project/fonts/Metropolis-Black.otf);
-}
-
 .dishes .dishes-images {
   display: inline-flex;
   margin: 20px;
@@ -149,6 +144,7 @@ body {
   border-radius: 50%;
   margin-right: 30px;
   margin-top: 10px;
+  animation: zoom-in-zoom-out 1s;
 }
 .dishes-images a {
   text-decoration: none;
@@ -182,7 +178,15 @@ body {
 }
 
 /*Restaurants*/
-
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  
+  }
 .Restaurant-collec .Restaurant-imgs {
   display: inline-flex;
   margin: 20px;
@@ -193,6 +197,7 @@ body {
   border-radius: 50%;
   margin-right: 30px;
   margin-top: 10px;
+  animation: zoom-in-zoom-out 1s;
 
 }
 .Restaurant-imgs a {
@@ -241,6 +246,7 @@ body {
 .food-imgs .foods {
   width: 100%;
   display: inline-flex;
+
 }
 
 .food-imgs h2 {
