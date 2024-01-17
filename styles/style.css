@@ -168,6 +168,7 @@ body {
   margin-top: 20px;
   color: #363636;
   padding-top: 30px;
+
 }
 
 .dishes-images a h3 {
@@ -187,7 +188,8 @@ body {
   margin: 20px;
 }
 .Restaurant-imgs img {
-  height: 150px;
+  height: 130px;
+  width: 150px;
   border-radius: 50%;
   margin-right: 30px;
   margin-top: 10px;
@@ -262,6 +264,7 @@ body {
   text-align: left;
   font-weight: 500;
   text-decoration: none;
+
 }
 .food-imgs .food-container .heading .rating {
   width: 100px;
