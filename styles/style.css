@@ -78,8 +78,8 @@ body {
   margin-left: 22.7rem;
   margin-top: 10px;
 }
-.top-delivery .delivery a{
-    text-decoration: none;
+.top-delivery .delivery a {
+  text-decoration: none;
 }
 .delivery img {
   height: 50px;
@@ -106,8 +106,8 @@ body {
   margin-left: 22.7rem;
   margin-top: 10px;
 }
-.filterbtns a{
-    text-decoration: none;
+.filterbtns a {
+  text-decoration: none;
 }
 .filterbtns button {
   margin-top: 10px;
@@ -121,18 +121,18 @@ body {
   font-size: 14px;
   color: #a2a2a2;
 }
-#cuisines{
-    margin-top: 10px;
-    margin-right: 10px;
-    height: 35px;
-    width: 95px;
-    background-color: white;
-    border: RGB(207, 207, 207) solid;
-    border-width: thin;
-    border-radius: 10px;
-    font-size: 14px;
-    color: #a2a2a2;
-    text-align: center;
+#cuisines {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 35px;
+  width: 95px;
+  background-color: white;
+  border: RGB(207, 207, 207) solid;
+  border-width: thin;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #a2a2a2;
+  text-align: center;
 }
 /*Dishes*/
 .dishes .dishes-images {
@@ -164,7 +164,6 @@ body {
   margin-top: 20px;
   color: #363636;
   padding-top: 30px;
-
 }
 
 .dishes-images a h3 {
@@ -179,14 +178,13 @@ body {
 
 /*Restaurants*/
 @keyframes zoom-in-zoom-out {
-    0% {
-      transform: scale(0.5, 0.5);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
-  
+  0% {
+    transform: scale(0.5, 0.5);
   }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 .Restaurant-collec .Restaurant-imgs {
   display: inline-flex;
   margin: 20px;
@@ -198,7 +196,6 @@ body {
   margin-right: 30px;
   margin-top: 10px;
   animation: zoom-in-zoom-out 1s;
-
 }
 .Restaurant-imgs a {
   text-decoration: none;
@@ -241,12 +238,11 @@ body {
   width: 330px;
   border-radius: 20px;
   text-decoration: none;
- margin: 10px;
+  margin: 10px;
 }
 .food-imgs .foods {
   width: 100%;
   display: inline-flex;
-
 }
 
 .food-imgs h2 {
@@ -270,7 +266,6 @@ body {
   text-align: left;
   font-weight: 500;
   text-decoration: none;
-
 }
 .food-imgs .food-container .heading .rating {
   width: 100px;
@@ -338,7 +333,7 @@ footer .top-footer {
   color: black;
   text-decoration: none;
   padding: 8px;
-  width: 80px;
+  width: 93px;
 }
 #language {
   margin-left: 40px;
